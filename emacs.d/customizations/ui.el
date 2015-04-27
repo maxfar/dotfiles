@@ -13,6 +13,9 @@
 ;; Show line numbers
 (global-linum-mode)
 
+;; Start in fullscreen mode
+(toggle-frame-fullscreen)
+
 ;; You can uncomment this to remove the graphical toolbar at the top. After
 ;; awhile, you won't need the toolbar.
 ;; (when (fboundp 'tool-bar-mode)
